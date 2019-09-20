@@ -77,6 +77,16 @@ CREATE TABLE IF NOT EXISTS `petinder`.`IMG_ANIMAL` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
+INSERT INTO tb_imgAnimal  values ('', 'C:\Users\Public\Pictures\Sample Pictures', 1)
+INSERT INTO tb_imgAnimal  values ('', 'C:\Users\Public\Pictures\Sample Pictures', 2)
+INSERT INTO tb_imgAnimal  values ('', 'C:\Users\Public\Pictures\Sample Pictures', 3)
+INSERT INTO tb_imgAnimal  values ('', 'C:\Users\Public\Pictures\Sample Pictures', 4)
+INSERT INTO tb_imgAnimal  values ('', 'C:\Users\Public\Pictures\Sample Pictures', 5)
+INSERT INTO tb_imgAnimal  values ('', 'C:\Users\Public\Pictures\Sample Pictures', 6)
+INSERT INTO tb_imgAnimal  values ('', 'C:\Users\Public\Pictures\Sample Pictures', 7)
+INSERT INTO tb_imgAnimal  values ('', 'C:\Users\Public\Pictures\Sample Pictures', 8)
+INSERT INTO tb_imgAnimal  values ('', 'C:\Users\Public\Pictures\Sample Pictures', 9)
+INSERT INTO tb_imgAnimal  values ('', 'C:\Users\Public\Pictures\Sample Pictures', 10)
 
 CREATE TABLE IF NOT EXISTS `petinder`.`RACA` (
   `cod` INT NOT NULL AUTO_INCREMENT,
