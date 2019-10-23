@@ -7,8 +7,6 @@ const express = require('express')
 
 const server = express()
 
-server.listen(3000);
-
 //1º path (caminho)
 //2º funcao
 
@@ -16,4 +14,6 @@ server.get('/perfil_animal/:prontuario', function(req, res){
     const prontuario = req.params.prontuario
     res.send('<h1>O prontuário é: ' + prontuario + '</h1>')
 })
+
+server.listen(3000);
 
