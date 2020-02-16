@@ -1,0 +1,27 @@
+<head>
+        <title>PERFIL</title>
+    </head>
+
+    {{#each usuarios}}
+
+    <body>
+        <h1>  Perfil do usuário  </h1>
+
+   
+     <br> <strong> Nome: </strong> <i> {{this.nome}}</i> <br>
+     <br> <strong> Possui outros animais: </strong> <i> 
+         {{#if this.animais}}
+       Sim
+        {{else}}
+        Não
+        {{/if}}
+         </i> <br>
+     <br> <strong> Moradia: </strong> <i>{{this.moradia}}</i> <br>
+     <br> <strong> Informações Adicionais: </strong><i>{{this.info_adic}}</i> <br>
+     <br>
+     <br>
+
+     {{/each}}
+    
+     <br> <img class="logoCanto" src="/imagens/logo.jpg" alt="petinder"> <br><br>
+    </body>

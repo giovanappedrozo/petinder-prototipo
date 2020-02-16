@@ -1,0 +1,195 @@
+<head>
+<title>CADASTRO ANIMAL</title>
+    </head>
+    <body>
+            
+  <div id="conteudo">
+            <h1>Cadastre seu animal</h1>
+  <img class="cadanimal" src="/imagens/cachorroduda.jpg" alt="">
+
+</section>
+<section id="informacoes1">
+  <div>
+      <h2>Nome</h2>
+      <form action="/views/cadastro_usuario" method="post">
+      Insira o nome aqui: <br>
+      <br><input type="text" name="nome" > 
+      <br><br>
+  </form> 
+</div>
+<div>
+<h2>Idade</h2>
+<form action="/action_page.php">
+Insira a idade aproximada aqui: <br>
+<br><input type="text" name="idade" >
+</form>
+</div>
+</section>
+
+   <section id="informacoes">
+     <div>
+  <h2>Espécie</h2>
+   <form>
+      <input type="radio" name="especie" value="" checked> Gato<br>
+      <input type="radio" name="especie" value="F"> Cachorro<br>
+      <br>
+</form>
+</div>
+<div>
+    
+    <h2>Sexo</h2>
+          <form>
+              <input type="radio" name="sexo" value="M" checked> Macho<br>
+              <input type="radio" name="sexo" value="F"> Fêmea<br>
+              <br>
+    </form>
+  </div>
+  </section>
+
+   <section id="informacoes2">
+     <div>
+<h2>Raças caninas</h2>
+<form action="/action_page.php">
+    <select name="Raça">
+      <option value="sdr">Sem Raça Definida</option>
+      <option value="akita">Akita</option>
+      <option value="american staffordshire terrier">American Staffordshire Terrier</option>
+      <option value="Basset hound">Basset Hound</option>
+      <option value="beagle">Beagle</option>
+      <option value="Bichon frisé">Bichon Frisé</option>
+      <option value="Border Collie">Border Collie</option>
+      <option value="Boston terrier">Boston Terrier</option>
+      <option value="Boxer">Boxer</option>
+      <option value="Buldogue francês">Buldogue Francês</option>
+      <option value="Buldogue inglês">Buldogue Inglês</option>
+      <option value="bull terrier">Bull Terrier</option>
+      <option value="cane corso">Cane Corso</option>
+      <option value="cavalier king charles spaniel">Cavalier Charles Spaniel</option>
+      <option value="Chihuahua">Chihuahua</option>
+      <option value="Chow Chow">Chow Chow</option>
+      <option value="Cocker spaniel inglês">Cocker Spaniel Inglês</option>
+      <option value="dach">Dachshund</option>
+      <option value="dal">Dálmata</option>
+      <option value="dob">Doberman</option>
+      <option value="da">Dogo Argentino</option>
+      <option value="doa">Dogue Alemão</option>
+      <option value="fb">Fila Brasileiro</option>
+      <option value="gr">Golden Retriever</option>
+      <option value="hs">Husky Siberiano</option>
+      <option value="jrt">Jack Russel Terrier</option>
+      <option value="lr">Labrador Retriever</option>
+      <option value="la">Lhasa Apso</option>
+      <option value="lp">Lulu da Pomerânia</option>
+      <option value="m">Maltês</option>
+      <option value="mi">Mastiff Inglês</option>
+      <option value="mt">Mastim Tiberiano</option>
+      <option value="pa">Pastor Alemão</option>
+      <option value="paust">Pastor Australiano</option>
+      <option value="ps">Pastor de Shetland</option>
+      <option value="peq">Pequinês</option>
+      <option value="pmin">Pinscher Miniatura</option>
+      <option value="poo">Poodle</option>
+      <option value="pug">Pug</option>
+      <option value="rot">Rottweiler</option>
+      <option value="schn">Schnauzer</option>
+      <option value="spei">Shar-pei</option>
+      <option value="shiba">Shiba</option>
+      <option value="stzu">Shih Tzu</option>
+      <option value="sbt">Staffordshire Bull Terrier</option>
+      <option value="w">Weimaraner</option>
+      <option value="why">Whippet</option>
+      <option value="yt">Yorkshire Terrier</option>
+
+    </select>
+   <br><br>
+   
+   </form>
+  </div>
+  <div>
+      <h2>Raças felinas</h2>
+      <form action="/action_page.php">
+       <select name="Raça">
+         <option value="sdr">Sem Raça Definida</option>
+         <option value="savannah">Savannah</option>
+         <option value="oriental shorthair">Oriental Shorthair</option>
+         <option value="oriental longhair">Oriental Longhair</option>
+         <option value="somali">Somali</option>
+         <option value="turkidh van">Turkish Van</option>
+         <option value="chausie">Chausie</option>
+         <option value="birmanês">Birmanês</option>
+         <option value="chartreux">Chartreux</option>
+         <option value="sagrado da birmânia">Sagrado da Birmânia</option>
+         <option value="sokoke">Sokoke</option>
+         <option value="nebelung">Nebelung</option>
+         <option value="selkirk rex">Selkirk Rex</option>
+         <option value="cornish rex">Cornish Rex</option>
+         <option value="occ">Ocicat</option>
+         <option value="ptb">Peterbald</option>
+         <option value="dv">Devon Rex</option>
+         <option value="k">Korat</option>
+         <option value="s">Selvagem</option>
+         <option value="epc">Exótico de Pelo Curto</option>
+         <option value="ar">Azul Russo</option>
+         <option value="sf">Scottish Fold</option>
+         <option value="s">Snowshoe</option>
+         <option value="Manx">Manx</option>
+         <option value="ac">Angorá Turco</option>
+         <option value="b">Bombaim</option>
+         <option value="nf">Norueguês da Floresta</option>
+         <option value="si">Siberiano</option>
+         <option value="be">Bengal</option>
+         <option value="sia">Siamês</option>
+         <option value="as">Ashera</option>
+         <option value="mc">Maine Coon</option>
+         <option value="l">Lykoi ou Gato Lobo</option>
+         <option value="m">Muchkin</option>
+         <option value="sh">Sphynx</option>
+         <option value="me">Mau Egípicio</option>
+         <option value="h">Himalaio</option>
+         <option value="ha">Havana</option>
+         <option value="eu">Europeu</option>
+         <option value="bali">Balinês</option>
+         <option value="ma">Mist Australiano</option>
+         <option value="ab">Abissíno</option>
+         <option value="per">Persa</option>
+         <option value="rag">Ragdoll</option>
+         <option value="bsh">British Shorthair</option>
+      
+   
+       </select>
+      <br><br>
+      
+      </form>
+</div>
+</section>
+<section id="informacoes3">
+  <div>
+      <h2>Inserir foto</h2>
+      <form>
+          <input type="file" name="foto">
+          <br><br>
+        </form> 
+      </div>
+      <div>
+          <h2>Tamanho</h2>
+          <form action="/action_page.php">
+           <select name="tamanho">
+             <option value="porte pequeno">Porte pequeno</option>
+             <option value="porte médio">Porte médio</option>
+             <option value="porte grande ">Porte grande</option>
+           </select>
+          <br><br>             
+      </form>
+      </div>
+      </section>
+      
+<h2>Informações adicionais</h2>
+<form action="/action_page.php">
+Insira informações que você considere necessárias aqui: <br>
+<br><input type="text" name="info_adic" >
+</form>
+<input type="submit" value="Concluir">
+
+<br> <img class= "logoCanto" src="/imagens/logo.jpg" alt="logo"><br><br>
+</div>
+    </body>

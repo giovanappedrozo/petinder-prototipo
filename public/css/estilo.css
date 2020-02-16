@@ -1,0 +1,152 @@
+body{
+    text-align: center;
+    font-size: 30px
+}
+
+.borda {
+    width: 70%;
+}
+
+.logoCanto{
+    float: right;
+    width: 10%;
+    margin-right: 15%;
+}
+
+.logoGrande {
+    width: 30%;
+}
+
+.h1{
+    font-size: 300%
+}
+
+input[type=text]:focus {
+  border: 2px solid black;
+  border-radius: 4px;
+  height: 50%;
+}
+
+input[type= submit]{
+    border: 2px solid rgb(59, 57, 57);
+    height: 70%;
+}
+
+#informacoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+#informacoes1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#informacoes2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#informacoes3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gatoperfil{
+    width: 12%;
+}
+
+.logoAdmin{
+    text-align: center;
+    width: 20%;
+}
+
+.animais{
+    width: 300px;
+}
+
+h3{
+    font-size: 120%
+   
+}
+
+.botão{
+    width: 200px;
+    height: 40px;
+}
+
+.editar{
+    font-size: 80%;
+    width: 12%;
+}
+
+.container {
+    border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 40%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+} 
+ 
+ .bt {
+     width: 200px;
+     height: 50px;
+     top:-90px;
+     margin: 10px;
+     left: 10%;
+    position: relative;
+    }
+ 
+   .feed {
+     width: 200px;   
+     height: 200px; 
+     margin-left: -7%;  
+    margin-top: 10px; 
+   }
+ 
+   hr {
+    width: 60%;
+     text-align: center;
+     margin-right:0 0 0 auto;
+   }
+ 
+   .logoGrande {
+    width: 20%;
+ }
+ 
+
